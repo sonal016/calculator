@@ -1,0 +1,17 @@
+.inp:focus
+{
+    outline: none;
+}
+
+.inp1:focus
+{
+    outline: none;
+}
+
+.one{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    overflow: auto;
+}
+

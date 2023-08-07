@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="C:/Sonal/calculator/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+  
+        <table style="border: solid 0.1px grey;" id="calc">
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="inp1" value="" style="border-bottom:none ; text-align: right;" readonly><br>
+                    <input type="text" class="inp" value="" style="border-top:none; text-align: right;">
+               </td><tr>
+                <td><input type="button" class="btn" onclick="clr()" value="c"></td>
+                <td><input type="button" class="btn" onclick="history()" value="hst"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="btn" onclick="getVal('7')" value="7"></td>
+                <td><input type="button" class="btn" onclick="getVal('8')" value="8"></td>
+                <td><input type="button" class="btn" onclick="getVal('9')" value="9"></td>
+                <td><input type="button" class="btn" onclick="getVal('/')" value="/"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="btn" onclick="getVal('4')" value="4"></td>
+                <td><input type="button" class="btn" onclick="getVal('5')" value="5"></td>
+                <td><input type="button" class="btn" onclick="getVal('6')" value="6"></td>
+                <td><input type="button" class="btn" onclick="getVal('*')" value="*"></td>
+            </tr>
+      
+            <tr>
+                <td><input type="button" class="btn" onclick="getVal('1')" value="1"></td>
+                <td><input type="button" class="btn" onclick="getVal('2')" value="2"></td>
+                <td><input type="button" class="btn" onclick="getVal('3')" value="3"></td>
+                <td><input type="button" class="btn" onclick="getVal('-')" value="-"></td>
+            </tr>
+        
+        
+            <tr>
+                <td><input type="button" class="btn" onclick="getAns()" value="="></td>
+                <td><input type="button" class="btn" onclick="getVal('0')" value="0"></td>
+                <td><input type="button" class="btn" onclick="getVal('.')" value="."></td>
+                <td><input type="button" class="btn" onclick="getVal('+')" value="+"></td>
+            </tr>
+        </table>
+        <div class="one">
+            <input type="button" class="btn" onclick="" value="del">
+        </div>
+        <script src="js/index.js"></script>
+</body>
+</html>
